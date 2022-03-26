@@ -35,7 +35,4 @@ jobs:
         with:
           connection-string: ${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}
           name: product-app
-          path: |
-            path/to/artifact
-            path/to/artifact/img
-            path/to/artifact/js
+          path: path/to/artifact
